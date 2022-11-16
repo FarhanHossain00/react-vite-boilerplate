@@ -1,6 +1,10 @@
+import Counter from './Counter';
 
 export default function App() {
   return (
-    <h1>hello world!</h1>
-  )
+    <div>
+      <Counter serial="first" />
+      <Counter serial="second" />
+    </div>
+  );
 }
